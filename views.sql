@@ -9,8 +9,8 @@ CREATE VIEW cyclosm_ways AS
             WHEN highway='trunk' THEN 'motorway'  -- trunk as motorway, check can_bicycle if cyclable
             WHEN highway='trunk_link' THEN 'motorway_link'  -- trunk as motorway
             WHEN highway='busway' THEN 'service'  -- busway as service
-            WHEN highway='footway' AND (bicycle='yes' OR bicycle='designated') THEN 'path'
-            WHEN highway='bridleway' AND (bicycle='yes' OR bicycle='designated') THEN 'path'
+            WHEN highway='footway' AND (bicycle='yes' OR bicycle='designated' OR bicycle='permissive') THEN 'path'
+            WHEN highway='bridleway' AND (bicycle='yes' OR bicycle='designated' OR bicycle='permissive') THEN 'path'
             WHEN highway!='bus_guideway' THEN highway
             ELSE NULL
         END,

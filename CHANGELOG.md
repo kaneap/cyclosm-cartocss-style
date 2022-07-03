@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     `cycleway:left|right=opposite_lane`. See #555.
 * Cycleways and bicycle-designated pats with no oneway tag are now drawn like a 
     cycleway/path with oneway=no tag. See #601
+* Interpret bicycle=permissive the same as bicycle=yes on footpaths
 
 
 ## v0.6
