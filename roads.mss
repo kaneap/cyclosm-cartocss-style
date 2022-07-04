@@ -2384,16 +2384,40 @@
 
     line-color: @primary-fill;
     #tunnel { line-color: lighten(@primary-fill, 5%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2452,16 +2476,40 @@
 
     line-color: @primary-fill;
     #tunnel { line-color: lighten(@primary-fill, 5%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2522,16 +2570,40 @@
 
     line-color: @secondary-fill;
     #tunnel { line-color: lighten(@secondary-fill, 5%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2590,16 +2662,40 @@
 
     line-color: @secondary-fill;
     #tunnel { line-color: lighten(@secondary-fill, 5%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2659,16 +2755,40 @@
 
     line-color: @standard-fill;
     #tunnel { line-color: lighten(@standard-fill, 10%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2728,16 +2848,40 @@
     line-color: @standard-fill;
     #tunnel { line-color: lighten(@standard-fill, 10%); }
 
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2798,16 +2942,40 @@
     line-color: @standard-fill;
     #tunnel { line-color: lighten(@standard-fill, 10%); }
 
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2867,18 +3035,42 @@
     [zoom>=17] { line-width: @rdz17_residential; }
     [zoom>=18] { line-width: @rdz18_residential; }
 
-    line-color: @standard-fill;
-    #tunnel { line-color: lighten(@standard-fill, 10%); }
+    line-color: @speed25mph-fill;
+    #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -2938,16 +3130,40 @@
 
     line-color: @standard-fill;
     #tunnel { line-color: lighten(@standard-fill, 10%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
@@ -3004,16 +3220,40 @@
 
     line-color: @standard-fill;
     #tunnel { line-color: lighten(@standard-fill, 10%); }
+    [maxspeed_kmh >= 80] {
+        line-color: @speedfast-fill;
+        #tunnel { line-color: lighten(@speedfast-fill, 10%); }
+    }
+    [maxspeed_kmh < 81] {
+        line-color: @speed50mph-fill;
+        #tunnel { line-color: lighten(@speed50mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 73] {
+        line-color: @speed45mph-fill;
+        #tunnel { line-color: lighten(@speed45mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 65] {
+        line-color: @speed40mph-fill;
+        #tunnel { line-color: lighten(@speed40mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 57] {
+        line-color: @speed35mph-fill;
+        #tunnel { line-color: lighten(@speed35mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 50] {
+        line-color: @speed30mph-fill;
+        #tunnel { line-color: lighten(@speed30mph-fill, 10%); }
+    }
+    [maxspeed_kmh < 41] {
+        line-color: @speed25mph-fill;
+        #tunnel { line-color: lighten(@speed25mph-fill, 10%); }
+    }
     [maxspeed_kmh < 33] {
-        line-color: @speed32-fill;
-        #tunnel { line-color: lighten(@speed32-fill, 10%); }
+        line-color: @speed20mph-fill;
+        #tunnel { line-color: lighten(@speed20mph-fill, 10%); }
     }
-    [maxspeed_kmh < 21] {
-        line-color: @speed20-fill;
-        #tunnel { line-color: lighten(@speed20-fill, 10%); }
-    }
-    [maxspeed_kmh < 10] {
-      line-color: @speedWalk-fill;
+    [maxspeed_kmh < 17] {
+      line-color: @speed10mph-fill;
       #tunnel { line-color: lighten(@speedWalk-fill, 10%); }
     }
     [motor_vehicle='no'][can_bicycle!='no'] {
