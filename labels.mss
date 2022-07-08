@@ -598,7 +598,9 @@
 
   shield-fill: @icn-shield-fill;
   [route='bicycle'][type='ncn'] {
-    shield-fill: @ncn-shield-fill;
+    shield-fill: "#000000";
+    shield-file: url("symbols/shields/ncn-us.svg");
+    shield-dy: -13
   }
   [route='bicycle'][type='rcn'] {
     shield-fill: @rcn-shield-fill;
