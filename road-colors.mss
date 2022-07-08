@@ -48,10 +48,8 @@
 @speed32-fill: #aff1f1;
 @speed20-fill: #bbffba;
 @speedWalk-fill: #ddffba;
-@speedfast-fill: #de16a9;
-@speed50mph-fill: #de16a9;
-@speed45mph-fill: #de5454;
-@speed40mph-fill: #e88a4a;
+@speedfast-fill: #de5454;
+@speed45mph-fill: #e88a4a;
 @speed35mph-fill: #e3bd5b;
 @speed30mph-fill: #d4ed8c;
 @speed25mph-fill: #9df0ac;
