@@ -48,6 +48,13 @@
 @speed32-fill: #aff1f1;
 @speed20-fill: #bbffba;
 @speedWalk-fill: #ddffba;
+@speedfast-fill: #de5454;
+@speed45mph-fill: #e88a4a;
+@speed35mph-fill: #e3bd5b;
+@speed30mph-fill: #d4ed8c;
+@speed25mph-fill: #9df0ac;
+@speed20mph-fill: #6eedd2;
+@speed10mph-fill: #5ce5f1;
 @nomotor-fill: #62ff96;
 @track-fill: #114021;
 @track-light1: lighten(@track-fill, 30%);
